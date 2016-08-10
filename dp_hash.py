@@ -6,8 +6,6 @@ import scipy.io as sio
 from datetime import datetime
 import utils
 
-
-
 node1 = 100
 node2 = 80
 node3 = 30
