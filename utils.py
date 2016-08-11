@@ -68,7 +68,7 @@ def cat_map(train_data_code,train_label,pre_code,pre_label,N=500):
                 x = x + 1
                 p = p + x*1./(j+1)
         if x:
-            apall += p/x
+            apall += p/N
     return apall/size
 
 def get_pre(train_data_code,train_label,pre_code,pre_label,N=1000):
